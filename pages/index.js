@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import NavbarPr from '../components/NavbarPr'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -10,7 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+    <NavbarPr/>
+
+      <main className="text-2xl space-x-4 text-center my-10">
         <h1>UNDER DEVELOPMENT</h1>
       </main>
 
